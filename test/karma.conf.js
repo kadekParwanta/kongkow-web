@@ -29,6 +29,12 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/angular-touch/angular-touch.js',
+      'bower_components/moment/moment.js',
+      'bower_components/angular-moment/angular-moment.js',
+      'bower_components/api-check/dist/api-check.js',
+      'bower_components/angular-formly/dist/formly.js',
+      'bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js',
+      'bower_components/angular-scroll-glue/src/scrollglue.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
