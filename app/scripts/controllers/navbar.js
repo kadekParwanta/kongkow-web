@@ -8,7 +8,7 @@
  * Controller of the kongkowWebApp
  */
 angular.module('kongkowWebApp')
-  .controller('NavbarCtrl', function () {
+  .controller('NavbarCtrl', function ($scope,Auth,$rootScope) {
    
     $scope.isLoggedin=false;
  

@@ -25,10 +25,10 @@ angular.module('kongkowWebApp')
   				self.currentUser=data.user;
   				console.log(self.currentUser);
   				$rootScope.islogged=true;
-          if($location.nextAfterLogin === null) {
-            $location.path('/');
+          if($location.nextAfterLogin) {
+						$location.path($location.nextAfterLogin);
           }else{
-             $location.path($location.nextAfterLogin);
+            $location.path('/');
           } 				
   			});
   		},
